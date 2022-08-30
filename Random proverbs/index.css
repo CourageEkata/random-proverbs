@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+button {
+  font-size: 10px;
+  font-family: "DynaPuff", cursive;
+  background-color: black;
+}
+body {
+  min-width: none;
+  min-height: 250px;
+  border: 100px;
+}
+.header-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+.header-title p {
+  font-size: 18px;
+  margin-top: 25px;
+  padding: 0 120px;
+}
+.section-center {
+  max-width: auto;
+  width: 900px;
+  height: 300px;
+  align-content: center;
+  background-color: rgb(27, 25, 25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  border-radius: 30px;
+}
+.section-center .image img {
+  background-image: url(img/Chinua-Achebe.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin-right: 50px;
+  border-radius: 10%;
+}
+.btn {
+  color: white;
+  background-color: crimson;
+  text-decoration: none;
+  height: auto;
+  width: 150px;
+  text-transform: capitalize;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  color: black;
+  background-color: rgb(207, 179, 179);
+  text-decoration: none;
+}
+.surprise-btn {
+  color: white;
+  background-color: crimson;
+  text-decoration: none;
+  height: 40px;
+  width: 250px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+.surprise-btn:hover {
+  color: black;
+  background-color: rgb(207, 179, 179);
+  text-decoration: none;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.prev-btn,
+.next-btn {
+  width: 50px;
+  height: 30px;
+  border: none;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: rgb(207, 179, 179);
+}
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: crimson;
+  color: white;
+}
+.underline-1 {
+  height: 0.7rem;
+  width: 20rem;
+  background-color: crimson;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  border-radius: 5%;
+}
+.underline-2 {
+  height: 0.5rem;
+  width: 8rem;
+  margin-right: 375px;
+  margin-left: auto;
+  margin-top: 5px;
+  background-color: crimson;
+  margin-bottom: 40px;
+  border-radius: 8%;
+}
+.content {
+  width: 500px;
+  color: azure;
+}
+.content h2 {
+  font-size: 2.3rem;
+  margin: auto;
+  text-transform: capitalize;
+}
+.content p,
+.book-title {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  font-style: italic;
+}
+footer {
+  text-align: center;
+  margin: 50px auto;
+  color: azure;
+  font-size: 15px;
+}
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-links a {
+  margin: auto 40px;
+}
+/* media query */
+
+@media screen and (max-width: 960px) {
+  .header-title p {
+    padding: 0 10px;
+  }
+  .section-center {
+    max-width: 500px;
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .content {
+    width: 400px;
+    padding: auto;
+    margin: 10px;
+  }
+  .content h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .underline-2 {
+    height: 0.5rem;
+    width: 8rem;
+    margin-right: 170px;
+    margin-left: auto;
+    margin-top: 5px;
+    background-color: crimson;
+    margin-bottom: 40px;
+    border-radius: 8%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header-title {
+    font-size: 18px;
+  }
+  .underline-1 {
+    height: 0.6rem;
+    width: 18rem;
+  }
+  .section-center .image img {
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .content p,
+  .book-title {
+    font-size: 1.7rem;
+    margin-top: 10px;
+    font-style: italic;
+    padding: 0px 55px;
+  }
+}
