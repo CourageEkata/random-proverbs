@@ -156,10 +156,14 @@ footer .social-links {
   .section-center {
     max-width: 500px;
     width: 70%;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
   }
+    .section-center .image img {
+      margin-top: 50px;
+      border-radius: 10px;
+    }
   .content {
     width: 400px;
     padding: auto;
@@ -188,6 +192,11 @@ footer .social-links {
     height: 0.6rem;
     width: 18rem;
   }
+    .section-center {
+      max-width: 500px;
+      width: 87%;
+      height: 500px;
+    }
   .section-center .image img {
     width: 250px;
     height: 150px;
@@ -201,4 +210,19 @@ footer .social-links {
     font-style: italic;
     padding: 0px 55px;
   }
+    .surprise-btn {
+      height: auto;
+      width: 150px;
+    }
+  
+    .prev-btn,
+    .next-btn {
+      width: 40px;
+      height: 25px;
+      margin-bottom: 10px;
+    }
+  
+    .social-links a {
+      margin: auto 15px;
+    }
 }
